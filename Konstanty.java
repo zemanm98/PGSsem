@@ -15,6 +15,9 @@ public class Konstanty {
         if(args.length != 4){
             System.out.println("Chybne zadany pocet vlaken");
             System.out.println("Boii, tak snad to už gunhuje");
+            for(int i = 0 ; i < 6; i ++){
+                System.out.println("hm,m");
+            }
             System.exit(0);
         }
         try{
