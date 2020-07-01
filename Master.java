@@ -63,7 +63,7 @@ public class Master implements Runnable {
      */
     @Override
     public void run() {
-
+        System.out.println("jej");
         //Vytvareni lesmiserables adresare
         new File(path).mkdir();
         Thread[] bossove = new Thread[pocetbossu];
