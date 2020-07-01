@@ -13,7 +13,7 @@ public class MisserablessCount {
      * @param args - Vstupni argumenty s pocty vlaken ktere se maji spustit.
      */
     public static void main(String[] args) {
-
+        System.out.println("Tak uz to snad chapu");
         //Kontrola vstupnich argumentu
         Konstanty.createNumbersofThreads(args);
         long zac = System.currentTimeMillis();
@@ -26,6 +26,8 @@ public class MisserablessCount {
         catch(InterruptedException e){
             System.err.println("Chyba");
         }
+
+
         long kon = System.currentTimeMillis();
         long vys = (kon - zac)/1000;
         System.out.println(vys);

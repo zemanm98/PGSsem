@@ -1,17 +1,17 @@
-public class Konstanty {
+class Konstanty {
     /**
      * Pocty vlaken ktere se vytvori
      */
-    public static int POCET_BOSSU;
-    public static int POCET_PREDAKU;
-    public static int POCET_PRACOVNIKU;
-    public static int POCET_OTROKU;
+    static int POCET_BOSSU;
+    static int POCET_PREDAKU;
+    static int POCET_PRACOVNIKU;
+    static int POCET_OTROKU;
 
     /**
      * Metoda zkontroluje a priradi pocty vlaken konstantam.
      * @param args - Vstupni argumenty programu.
      */
-    public static void createNumbersofThreads(String[] args){
+    static void createNumbersofThreads(String[] args){
         if(args.length != 4){
             System.out.println("Chybne zadany pocet vlaken");
             System.out.println("Boii, tak snad to už gunhuje");
