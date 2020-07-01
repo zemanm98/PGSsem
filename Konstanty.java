@@ -14,6 +14,7 @@ public class Konstanty {
     public static void createNumbersofThreads(String[] args){
         if(args.length != 4){
             System.out.println("Chybne zadany pocet vlaken");
+            System.out.println("Boii, tak snad to už gunhuje");
             System.exit(0);
         }
         try{
