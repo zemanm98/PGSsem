@@ -29,6 +29,7 @@ public class MisserablessCount {
         long kon = System.currentTimeMillis();
         long vys = (kon - zac)/1000;
         System.out.println(vys);
+        System.out.println("hele nechapu co tu poradne delam");
 
 
 
