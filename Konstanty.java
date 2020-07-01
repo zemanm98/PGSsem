@@ -18,6 +18,7 @@ public class Konstanty {
             for(int i = 0 ; i < 6; i ++){
                 System.out.println("hm,m");
             }
+            System.out.println("Asi nevim jak to funguje");
             System.exit(0);
         }
         try{
